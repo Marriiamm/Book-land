@@ -50,6 +50,8 @@ dependencies:
   smooth_page_indicator: ^1.2.0+3
   expandable_page_view: ^1.0.17
   flutter_bloc: ^8.1.6
+  get_it: ^8.0.2
+  cached_network_image: ^3.4.1
 
 dev_dependencies:
   flutter_test:
