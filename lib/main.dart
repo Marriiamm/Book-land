@@ -46,8 +46,8 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: 'Book Land',
         onGenerateRoute: AppRoutes.generateRoute,
-        //initialRoute: AppRoutes.splash,
-        home: const HomeView(),
+        initialRoute: AppRoutes.splash,
+        //home: const HomeView(),
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           textTheme: GoogleFonts.dosisTextTheme(),
